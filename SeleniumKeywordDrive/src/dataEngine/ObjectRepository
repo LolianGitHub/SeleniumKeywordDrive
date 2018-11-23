@@ -1,0 +1,16 @@
+# Home Page Objects
+ContactUsHoverLink=//li[@class='dropdown contact-us']
+TalktoExpertLink=//ul[@class = 'dropdown-menu']//a[@href ='/nz/talk-to-an-expert']
+
+
+#Login Page Objects
+Input_name=//*[@id='f_email']
+Input_password=//*[@id='f_pwd']
+Login_button=//*[@id='login_osc']/table/tbody/tr[7]/td/input
+
+#Talk to Expert Page Objects
+Input_FirstName = //p[contains(@class, 'first_name')]//input[@type = 'text']
+Select_Country = //option[@value = '974314']
+Set_Country_NZ = //*[@id=\"53762_104166pi_53762_104166\"]/option[2]
+TalktoExpertButton = //*[@id="pardot-form"]/p[16]/input
+
